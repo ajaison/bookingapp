@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8be97a1-99ed-485f-92af-1adba9646cc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking3.iml" afterDir="false" />
+    <list default="true" id="c8be97a1-99ed-485f-92af-1adba9646cc8" name="Changes" comment="Hotels backend api complete">
+      <change afterPath="$PROJECT_DIR$/api/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/Hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/Room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/hotels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/rooms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/utils/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jalan/Documents/reactbooking/booking3/api",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jalan/Documents/reactbooking/booking3/api&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api" />
@@ -54,8 +63,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660574408653</updated>
-      <workItem from="1660574409858" duration="787000" />
+      <workItem from="1660574409858" duration="17182000" />
+      <workItem from="1660728112229" duration="58000" />
+      <workItem from="1660728204387" duration="2247000" />
+      <workItem from="1660730769937" duration="53000" />
+      <workItem from="1660730843259" duration="3102000" />
     </task>
+    <task id="LOCAL-00001" summary="Main">
+      <created>1660575268729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660575268729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Main" />
+    <MESSAGE value="Hotels backend api complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotels backend api complete" />
   </component>
 </project>
